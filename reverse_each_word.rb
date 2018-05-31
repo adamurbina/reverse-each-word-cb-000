@@ -11,7 +11,7 @@
 def reverse_each_word(sentence)
     sentenceArray = sentence.split
     sentenceArray.collect { |word|
-        word.reverse
+        word.reverse!
     }
     sentenceArray.join(" ")
 
