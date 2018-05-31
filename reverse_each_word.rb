@@ -4,5 +4,6 @@ def reverse_each_word(sentence)
     sentenceArray.each_with_index { |word, index|
         sentenceArray[index] = word.reverse
     }
+    sentenceArray.join(" ")
 
 end
