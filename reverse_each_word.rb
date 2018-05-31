@@ -1,5 +1,5 @@
 def reverse_each_word(sentence)
-    sentence.each_char { |word|
+    sentence.each { |word|
         word.reverse!
     }
 end
